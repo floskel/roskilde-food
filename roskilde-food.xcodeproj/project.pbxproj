@@ -11,12 +11,12 @@
 		44EB40E5CFC3B5116D944DAA /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB463C8DC1C5EB4BF8F715 /* CoreData.framework */; };
 		44EB41B682AF8B66661EA3B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB41B13704DE71A64535ED /* CoreGraphics.framework */; };
 		44EB4230F7DE837E91D2F0C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EB47BE14F66B15E8CF5F2C /* AppDelegate.m */; };
+		44EB44A34B999B575540DAF6 /* RFFoodApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EB43E7FC6E22F491BF6F52 /* RFFoodApi.m */; };
 		44EB45F141E79BB848480848 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB463C8DC1C5EB4BF8F715 /* CoreData.framework */; };
 		44EB465CA07BAEA96873ADA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB444707000D2D665B6659 /* UIKit.framework */; };
 		44EB484C951F595CA335A041 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB48F90B182560F02DE6DA /* XCTest.framework */; };
 		44EB48A8AD2F82295464A3B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB42CEF7C913ED0F12A48C /* Foundation.framework */; };
 		44EB4A6D1442A5FBF067B854 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44EB4502EC999A4DEF45D778 /* Images.xcassets */; };
-		44EB4B3DD3E463E4332B7F3D /* roskilde_food.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44EB41C8D01BD7FE7D545B06 /* roskilde_food.xcdatamodeld */; };
 		44EB4BD2FA2C8F7DAFF23C49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EB4E12A6DB3DC3E0439657 /* main.m */; };
 		44EB4CDD024E803C4058DF48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44EB4ABB8AEFA9849711CD09 /* InfoPlist.strings */; };
 		44EB4CE0388373D071A353C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB42CEF7C913ED0F12A48C /* Foundation.framework */; };
@@ -38,6 +38,7 @@
 		44EB41B13704DE71A64535ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		44EB41EF8F53E11876DB4203 /* roskilde-food.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "roskilde-food.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EB42CEF7C913ED0F12A48C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		44EB43E7FC6E22F491BF6F52 /* RFFoodApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFFoodApi.m; sourceTree = "<group>"; };
 		44EB444707000D2D665B6659 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		44EB444CC0A4DDD9C1261DBD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44EB4502EC999A4DEF45D778 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -46,9 +47,9 @@
 		44EB47CA3F6F21CFAC385D32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44EB48B1FA249C0F1BB221C8 /* roskilde-food-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "roskilde-food-Info.plist"; sourceTree = "<group>"; };
 		44EB48F90B182560F02DE6DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		44EB4B1C3F845B5918A01A57 /* RFFoodApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFFoodApi.h; sourceTree = "<group>"; };
 		44EB4C29947DA50E9DDCE704 /* roskilde-food-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "roskilde-food-Prefix.pch"; sourceTree = "<group>"; };
 		44EB4E12A6DB3DC3E0439657 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		44EB4E9688C666D7A8513C01 /* roskilde_food.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = roskilde_food.xcdatamodel; sourceTree = "<group>"; };
 		7045211358BA42CE855AF8C3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +87,8 @@
 				44EB47CA3F6F21CFAC385D32 /* AppDelegate.h */,
 				44EB47BE14F66B15E8CF5F2C /* AppDelegate.m */,
 				44EB4502EC999A4DEF45D778 /* Images.xcassets */,
-				44EB41C8D01BD7FE7D545B06 /* roskilde_food.xcdatamodeld */,
+				44EB43E7FC6E22F491BF6F52 /* RFFoodApi.m */,
+				44EB4B1C3F845B5918A01A57 /* RFFoodApi.h */,
 			);
 			path = "roskilde-food";
 			sourceTree = "<group>";
@@ -190,8 +192,6 @@
 			mainGroup = 44EB4D10B97376176EC99DCE;
 			productRefGroup = 44EB473B95532C06774CA8FD /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
 				44EB42B2EF5CFF071BED5273 /* roskilde-food */,
@@ -259,7 +259,7 @@
 			files = (
 				44EB4BD2FA2C8F7DAFF23C49 /* main.m in Sources */,
 				44EB4230F7DE837E91D2F0C6 /* AppDelegate.m in Sources */,
-				44EB4B3DD3E463E4332B7F3D /* roskilde_food.xcdatamodeld in Sources */,
+				44EB44A34B999B575540DAF6 /* RFFoodApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +443,7 @@
 				44EB442DB69FE2FA60C78912 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44EB4EEADC9F9301510AB9BB /* Build configuration list for PBXNativeTarget "roskilde-foodTests" */ = {
 			isa = XCConfigurationList;
@@ -451,21 +452,9 @@
 				44EB4801EDF0C5C4F28BC737 /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		44EB41C8D01BD7FE7D545B06 /* roskilde_food.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				44EB4E9688C666D7A8513C01 /* roskilde_food.xcdatamodel */,
-			);
-			currentVersion = 44EB4E9688C666D7A8513C01 /* roskilde_food.xcdatamodel */;
-			path = roskilde_food.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 44EB49FE4BCB93804D2EFA78 /* Project object */;
 }
